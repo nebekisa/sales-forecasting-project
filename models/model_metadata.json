@@ -1,0 +1,39 @@
+{
+  "model_name": "xgboost",
+  "features": [
+    "Customers",
+    "Promo",
+    "SchoolHoliday",
+    "Weekend_Flag",
+    "Year",
+    "Month",
+    "DayOfWeek",
+    "WeekOfYear",
+    "CompetitionDistance",
+    "DaysSinceCompetitionOpen",
+    "Promo2",
+    "IsPromo2Running",
+    "SalesPerCustomer",
+    "StoreType_Code",
+    "Assortment_Code",
+    "Holiday_0",
+    "Holiday_a",
+    "Holiday_b",
+    "Holiday_c"
+  ],
+  "train_date_range": [
+    "2013-01-01T00:00:00",
+    "2015-01-30T00:00:00"
+  ],
+  "test_date_range": [
+    "2015-01-30T00:00:00",
+    "2015-07-31T00:00:00"
+  ],
+  "metrics": {
+    "RMSE": 146.44520226222843,
+    "MAE": 46.08528518676758,
+    "R2": 0.9977150559425354
+  },
+  "num_features": 19,
+  "training_samples": 675513
+}
