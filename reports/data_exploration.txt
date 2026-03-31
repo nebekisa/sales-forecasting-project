@@ -1,0 +1,77 @@
+DATA EXPLORATION REPORT
+==================================================
+
+Dataset Shape: (1017209, 18)
+Columns: ['Store', 'DayOfWeek', 'Date', 'Sales', 'Customers', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday', 'StoreType', 'Assortment', 'CompetitionDistance', 'CompetitionOpenSinceMonth', 'CompetitionOpenSinceYear', 'Promo2', 'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval']
+
+Missing Values:
+Store                             0
+DayOfWeek                         0
+Date                              0
+Sales                             0
+Customers                         0
+Open                              0
+Promo                             0
+StateHoliday                      0
+SchoolHoliday                     0
+StoreType                         0
+Assortment                        0
+CompetitionDistance            2642
+CompetitionOpenSinceMonth    323348
+CompetitionOpenSinceYear     323348
+Promo2                            0
+Promo2SinceWeek              508031
+Promo2SinceYear              508031
+PromoInterval                508031
+dtype: int64
+
+Basic Statistics:
+              Store     DayOfWeek                           Date  \
+count  1.017209e+06  1.017209e+06                        1017209   
+mean   5.584297e+02  3.998341e+00  2014-04-11 01:30:42.846061824   
+min    1.000000e+00  1.000000e+00            2013-01-01 00:00:00   
+25%    2.800000e+02  2.000000e+00            2013-08-17 00:00:00   
+50%    5.580000e+02  4.000000e+00            2014-04-02 00:00:00   
+75%    8.380000e+02  6.000000e+00            2014-12-12 00:00:00   
+max    1.115000e+03  7.000000e+00            2015-07-31 00:00:00   
+std    3.219087e+02  1.997391e+00                            NaN   
+
+              Sales     Customers          Open         Promo  SchoolHoliday  \
+count  1.017209e+06  1.017209e+06  1.017209e+06  1.017209e+06   1.017209e+06   
+mean   5.773819e+03  6.331459e+02  8.301067e-01  3.815145e-01   1.786467e-01   
+min    0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   0.000000e+00   
+25%    3.727000e+03  4.050000e+02  1.000000e+00  0.000000e+00   0.000000e+00   
+50%    5.744000e+03  6.090000e+02  1.000000e+00  0.000000e+00   0.000000e+00   
+75%    7.856000e+03  8.370000e+02  1.000000e+00  1.000000e+00   0.000000e+00   
+max    4.155100e+04  7.388000e+03  1.000000e+00  1.000000e+00   1.000000e+00   
+std    3.849926e+03  4.644117e+02  3.755392e-01  4.857586e-01   3.830564e-01   
+
+       CompetitionDistance  CompetitionOpenSinceMonth  \
+count         1.014567e+06              693861.000000   
+mean          5.430086e+03                   7.222866   
+min           2.000000e+01                   1.000000   
+25%           7.100000e+02                   4.000000   
+50%           2.330000e+03                   8.000000   
+75%           6.890000e+03                  10.000000   
+max           7.586000e+04                  12.000000   
+std           7.715324e+03                   3.211832   
+
+       CompetitionOpenSinceYear        Promo2  Promo2SinceWeek  \
+count             693861.000000  1.017209e+06    509178.000000   
+mean                2008.690228  5.005638e-01        23.269093   
+min                 1900.000000  0.000000e+00         1.000000   
+25%                 2006.000000  0.000000e+00        13.000000   
+50%                 2010.000000  1.000000e+00        22.000000   
+75%                 2013.000000  1.000000e+00        37.000000   
+max                 2015.000000  1.000000e+00        50.000000   
+std                    5.992644  4.999999e-01        14.095973   
+
+       Promo2SinceYear  
+count    509178.000000  
+mean       2011.752774  
+min        2009.000000  
+25%        2011.000000  
+50%        2012.000000  
+75%        2013.000000  
+max        2015.000000  
+std           1.662870  
