@@ -1,0 +1,57 @@
+/* Custom styling for dashboard */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.text-primary {
+    color: #3498db !important;
+}
+
+.text-success {
+    color: #27ae60 !important;
+}
+
+.text-info {
+    color: #2980b9 !important;
+}
+
+.text-warning {
+    color: #f39c12 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 0.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
